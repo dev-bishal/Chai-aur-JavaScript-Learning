@@ -1,6 +1,6 @@
 "use strict"; //To make compiler understand, that treat this javascript code as a new standard version of JavaScript
 
-alert(3+3); // This does not working with Node JS
+// alert(3+3); // This does not working with Node JS
 
 /* 
     we can choose not to use Semicolon ';' 
@@ -21,4 +21,9 @@ let pi = 3.14 //float/Double
 let isAlive = true //Boolean
 let noValue; //undefined
 let nothingStore = null //null defines empty value
-//symbols => they are used in react
+//symbols => defines unique. It is used in react
+//Objects
+
+/* typeof(variable) => gives datatype of the variable */
+console.log(typeof(null)); //Returns Objects
+console.log(typeof(isAlive));
